@@ -22,7 +22,7 @@ void	init_core(char **env)
 int	main(int argc, char **argv, char **env)
 {
 	(void)argv;
-	if(argc != 1)
+	if (argc != 1)
 	{
 		printf("You do not need to enter args...\n");
 		return (0);
