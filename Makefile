@@ -2,7 +2,7 @@ USERNAME = bbolat
 NAME = minishell
 CFLAGS = $(INCLUDE) -Wall -Werror -Wextra -g
 INCLUDE = -IInclude/ -I/Users/$(USERNAME)/goinfre/homebrew/Cellar/readline/8.2.1/include
-CC = gcc
+CC = gcc -g
 
 SRC = $(shell find src -name "*.c")
 SRCDIR = $(sort $(dir $(SRC)))

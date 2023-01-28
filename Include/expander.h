@@ -34,11 +34,9 @@ void	expand_dollar_value(char **dst, char **src);
 
 void	clear_void_contents(void);
 
-//EXANDCMD
+//EXPANDCMD
 void	expand_cmd(char **dst);
 void	expand_from_env_value(char **dst, char *content);
 char	*get_arg_from_env_value(char **envs, char *search_arg_name);
-
-//void	print_expander(void);
 
 #endif

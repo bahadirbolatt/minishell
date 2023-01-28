@@ -34,7 +34,6 @@ t_core	g_core;
 void	free_for_loop(void);
 void	free_core(void);
 void	signals(int sig);
-void	print_lexer(void);
 void	exit_signal_check(void);
 
 #endif

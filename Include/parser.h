@@ -56,7 +56,4 @@ int			raise_file_error(t_filelist *file, int *file_output);
 void		free_parser(void);
 void		free_filelist(t_filelist *files);
 
-//void		print_files(t_filelist *temp_filelist);
-//void		print_parser(void);
-
 #endif
