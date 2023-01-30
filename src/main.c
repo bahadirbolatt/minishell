@@ -29,6 +29,7 @@ int	main(int argc, char **argv, char **env)
 	}
 	init_core(env);
 	signal(SIGINT, signals);
+	signal(SIGQUIT, SIG_IGN);
 	while (1)
 	{
 		g_core.cmd = readline("\033[0;34mminishell-> \033[0m");
