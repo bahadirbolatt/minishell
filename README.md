@@ -52,4 +52,4 @@ Bu proje, Bash programının bir taklidi olarak yazılmıştır. Proje, C dili k
 
 Proje, execve fonksiyonunu kullanarak çalıştırdığınız diğer programların çıktılarını görüntüler. Ayrıca taklit ettiğimiz Bash komutlarını kullanarak sistem üzerinde gezinmenizi ve değişkenleri yönetmenizi sağlar. Projede ayrıca pipe ve redir mantığını kullanarak çıktıların yönlendirilmesini ve heredoc fonksiyonu ile komut satırından veri alınmasını sağlar. Özellikle, "command1 | command2" gibi pipe kullanımı, "command1 > output.txt" gibi redirection kullanımı ve heredoc kullanımı gibi senaryolarda projenin nasıl çalıştığını gözlemleyebilirsiniz.
 
-https://user-images.githubusercontent.com/87010618/215487383-73590979-a715-462b-8533-a085642a8073.mov
+![Ekran Kaydı 2023-01-30 ÖS 3 09 41](https://user-images.githubusercontent.com/87010618/215487707-3c6cc7c9-d1b5-4bcc-83e5-34f9f31e9d96.gif)
