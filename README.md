@@ -1,6 +1,6 @@
 # minishell
 
-<img width="629" alt="Ekran Resmi 2023-01-30 ÖS 3.07.15" src="">
+<img width="863" alt="Ekran Resmi 2023-01-30 ÖS 3 07 15" src="https://user-images.githubusercontent.com/87010618/215487325-9d6f5ba0-4a83-4645-b2e7-20095f534cd0.png">
 
 # Setup
 
@@ -51,3 +51,5 @@ Bu proje, Bash programının bir taklidi olarak yazılmıştır. Proje, C dili k
 ./minishell
 
 Proje, execve fonksiyonunu kullanarak çalıştırdığınız diğer programların çıktılarını görüntüler. Ayrıca taklit ettiğimiz Bash komutlarını kullanarak sistem üzerinde gezinmenizi ve değişkenleri yönetmenizi sağlar. Projede ayrıca pipe ve redir mantığını kullanarak çıktıların yönlendirilmesini ve heredoc fonksiyonu ile komut satırından veri alınmasını sağlar. Özellikle, "command1 | command2" gibi pipe kullanımı, "command1 > output.txt" gibi redirection kullanımı ve heredoc kullanımı gibi senaryolarda projenin nasıl çalıştığını gözlemleyebilirsiniz.
+
+https://user-images.githubusercontent.com/87010618/215487383-73590979-a715-462b-8533-a085642a8073.mov
